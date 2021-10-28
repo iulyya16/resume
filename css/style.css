@@ -1,0 +1,77 @@
+.gradient {
+    background-image:linear-gradient(to bottom right, black , #bc8522);
+    color: goldenrod;
+    height: 150px;
+    padding-left: 20px;
+    padding-top: 20px;
+    
+}
+
+.gradient > p {
+    font-size: 20px;
+}
+
+nav {
+    float: right;
+       }
+
+nav > button {
+    background-color: black;
+    height: 40px;
+    width: 120px;
+    font-size: 18px;
+
+    }
+    
+button > a {
+    color: goldenrod;
+    text-decoration: none;
+    
+}
+
+img {
+    position: fixed;
+    background-position-x: absolute;
+    left: 0;
+}
+
+
+.about-me {
+  padding-left: 380px;
+}
+
+table {
+padding-left: 380px;
+text-align: left;
+font-size: 20px;
+}
+
+td:nth-child(1) {
+    padding-right: 50px;
+    }
+
+    tr > td {
+        padding-bottom: 20px;
+        border-bottom: 2px double black;
+    }
+
+h2 {
+    padding-left: 380px;
+ 
+}
+footer {
+    background-color:#2e2b23;
+    color: goldenrod;
+    height: 200px;
+    text-align: center;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    height: 110px;
+    padding-top: 40px;
+    clear: both;
+    }
+
+    footer > a {
+        color:#dbcda7;
+    }
